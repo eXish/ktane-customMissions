@@ -255,7 +255,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - CrazyTalkWithAK
+      - playfairCycle
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -334,10 +334,4 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - hillCycle
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - playfairCycle
   PacingEventsEnabled: 0

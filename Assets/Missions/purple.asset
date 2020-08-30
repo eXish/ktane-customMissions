@@ -149,4 +149,10 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - theRule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CrazyTalkWithAK
   PacingEventsEnabled: 0
