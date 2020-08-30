@@ -58,4 +58,10 @@ MonoBehaviour:
       - tashaSqueals
       - topsyTurvy
       - redLightGreenLight
+      - Alphabetize
+      - ReverseAlphabetize
+      - FiveLetterWords
+      - VCRCS
+      - ANDmodule
+      - navinums
   PacingEventsEnabled: 0

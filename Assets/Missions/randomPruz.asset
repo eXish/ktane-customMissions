@@ -53,7 +53,7 @@ MonoBehaviour:
       - characterCodes
       - CornersModule
       - CrackboxModule
-      - FiveLetterWordsAgain
+      - FiveLetterWords
       - theHiddenValue
       - jenga
       - keypadCombinations
