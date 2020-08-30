@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: random1TP
+  m_EditorClassIdentifier: 
+  DisplayName: '''Important'' Module Practice'
+  Description: 'The real question here is, what is considered a "boss" module? (I
+    think we know now)
+
+
+    This bomb contains...
+
+    - 1x Random "boss"/"semi-boss" (very important) module
+
+    - 10x Random solvable modules'
+  GeneratorSetting:
+    TimeLimit: 1080
+    NumStrikes: 3
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 7
+    ComponentPools:
+    - Count: 10
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 1
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SouvenirModule
+      - cookieJars
+      - simonsStages
+      - HogwartsModule
+      - forgetEnigma
+      - HexiEvilFMN
+      - MemoryV2
+      - qkForgetPerspective
+      - forgetThemAll
+      - forgetThis
+      - forgetUsNot
+      - TurnTheKey
+      - TurnTheKeyAdvanced
+      - DividedSquaresModule
+      - timeKeeper
+      - theSwan
+      - organizationModule
+      - taxReturns
+      - 14
+      - ForgetTheColors
+      - forgetInfinity
+      - simonForgets
+      - forgetItNot
+      - forgetMeLater
+      - omegaForget
+      - busyBeaver
+      - brainf
+      - encryptionBingo
+      - pwDestroyer
+      - bamboozlingTimeKeeper
+      - iconic
+      - kugelblitz
+      - veryAnnoyingButton
+      - timingIsEverything
+      - qkUCN
+      - ANDmodule
+      - FourtyTwo
+      - FiveZeroOne
+      - TheTwinModule
+  PacingEventsEnabled: 0

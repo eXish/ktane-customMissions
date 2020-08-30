@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: eXishMissions
+  title: eXish's Custom Missions
+  author: eXish
+  description: 'A set of missions ~~fueling my ego in my everylasting reign of terror
+    over the KTANE community >:)~~ dedicated to all of my fans in this game through
+    the modded community. Thank you all so much for supporting me for all this time
+    and I hope to continue doing this for a lot longer! (Even though I''m heading
+    to college in less than 5 days from the release of this...)
+
+
+    eXish''s Custom Missions v1.0.6
+
+    Some Missions Not TP Supported but TP Variants Were Made for these occasions'
+  version: 1.0.6
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: 0050efd65a4d3a44e8abb2165598ad2d, type: 3}

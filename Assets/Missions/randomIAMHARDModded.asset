@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: randomIAMHARDModded
+  m_EditorClassIdentifier: 
+  DisplayName: Random "I Am Hardcore" (Modded)
+  Description: 'You remember this mission right? Well now its here, but with mods
+    instead.
+
+
+    This bomb contains...
+
+    - 11x random modules that have the same concept as the vanillas
+
+    - A possibility for a Simon''s Stages
+
+    - A possibility for a Forget Me Not
+
+    - A possibility for a Forget Everything'
+  GeneratorSetting:
+    TimeLimit: 1020
+    NumStrikes: 3
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 7
+    ComponentPools:
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sevenWires
+      - riskyWires
+      - skinnyWires
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - bamboozlingButton
+      - plungerButton
+      - ButtonV2
+      - hexabutton
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - simonScrambles
+      - SimonScreamsModule
+      - simonSelectsModule
+      - SimonShrieksModule
+      - simonSimons
+      - simonStops
+      - simonsOnFirst
+      - simonStores
+      - SimonSpeaksModule
+      - SimonV2
+      - simonsStages
+      - simonsStar
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - PerplexingWiresModule
+      - wireSpaghetti
+      - wire
+      - WirePlacementModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - EncryptedMorse
+      - MorseV2
+      - MorseWar
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MadMemory
+      - horribleMemory
+      - MemoryV2
+      - HexiEvilFMN
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ThirdBase
+      - colourTalk
+      - CrazyTalk
+      - insanetalk
+      - krazyTalk
+      - RegularCrazyTalkModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spwiz3DMaze
+      - BlindMaze
+      - boolMaze
+      - factoryMaze
+      - HexamazeModule
+      - maze3
+      - mazematics
+      - MazeScrambler
+      - ModuleMaze
+      - MouseInTheMaze
+      - PolyhedralMazeModule
+      - USA
+      - redArrowsModule
+      - 3dTunnels
+      - MazeV2
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - booleanWires
+      - FollowTheLeaderModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BooleanKeypad
+      - complexKeypad
+      - KeypadV2
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CrypticPassword
+      - ExtendedPassword
+  PacingEventsEnabled: 0
