@@ -35,6 +35,7 @@ MonoBehaviour:
   - Title: Challenge Bombs
     MissionIDs:
     - woodsievous
+    - carraphim
   - Title: Randomized
     MissionIDs:
     - random1
