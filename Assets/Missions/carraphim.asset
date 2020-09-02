@@ -16,7 +16,7 @@ MonoBehaviour:
     be.\" - Anonymous\n\nThis bomb contains...\n- 48x Specific modules\n- 1x Forget
     Me Not\n- 1x Turn The Keys\n- 1x \xDCbermodule"
   GeneratorSetting:
-    TimeLimit: 3900
+    TimeLimit: 4200
     NumStrikes: 4
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
