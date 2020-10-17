@@ -47,7 +47,7 @@ MonoBehaviour:
       - 0
       - OneThousandWords
       - Alphabetize
-      - bananaNeedy
+      - navinums
       - blinkstopModule
       - BlueNeedy
       - characterCodes
@@ -73,5 +73,4 @@ MonoBehaviour:
       - triangleButtons
       - VCRCS
       - ANDmodule
-      - navinums
   PacingEventsEnabled: 0
