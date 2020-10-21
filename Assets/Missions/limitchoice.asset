@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: limitchoice
+  m_EditorClassIdentifier: 
+  DisplayName: Limited Choice
+  Description: 'Probably the only way that anyone will enjoy playing with an Organization.
+
+
+    This bomb contains...
+
+    - 3x Organization
+
+    - 1x Forget Me Not, Forget This, or Simon''s Stages
+
+    - 1x Forget Them All, Kugelblitz, or Busy Beaver
+
+    - 6x "Moved To Back" modules (As of 10/21/2020)
+
+    - 36x Specific modules'
+  GeneratorSetting:
+    TimeLimit: 3600
+    NumStrikes: 5
+    TimeBeforeNeedyActivation: 90
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 6
+    ComponentPools:
+    - Count: 3
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - organizationModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MemoryV2
+      - forgetThis
+      - simonsStages
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - forgetThemAll
+      - kugelblitz
+      - busyBeaver
+    - Count: 6
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - 7
+      - asciiMaze
+      - bamboozledAgain
+      - bamboozlingButton
+      - bamboozlingButtonGrid
+      - beanboozledAgain
+      - blackCipher
+      - borderedKeys
+      - burgerAlarm
+      - buttonGrid
+      - kataCheatCheckout
+      - ConnectedMonitorsModule
+      - matchemcruel
+      - cruelStars
+      - the_cRule
+      - crypticCycle
+      - cube
+      - CursedDoubleOhModule
+      - devilishEggs
+      - disorderedKeys
+      - dragonEnergy
+      - ksmDreamcipher
+      - dungeon
+      - dungeon2
+      - echolocation
+      - EncryptedMorse
+      - EnglishEntries
+      - factoryMaze
+      - faultyrgbMaze
+      - ForgetMeNow
+      - GameOfLifeCruel
+      - graphicMemory
+      - greatVoid
+      - hexOS
+      - hillCycle
+      - identifyingSoulless
+      - indigoCipher
+      - jenga
+      - jumbleCycle
+      - KudosudokuModule
+      - LEGOModule
+      - lgndLombaxCubes
+      - lousyChess
+      - KritMicroModules
+      - SquaresOfMisery
+      - misorderedKeys
+      - mysticmaze
+      - necronomicon
+      - neutrinos
+      - numberNimbleness
+      - OddOneOutModule
+      - oldFogey
+      - oneLinksToAllModule
+      - orangeCipher
+      - PuzzwordModule
+      - quintuples
+      - RailwayCargoLoading
+      - ksmRainbowArrows
+      - recordedKeys
+      - redCipher
+      - reorderedKeys
+      - qkRepoSelector
+      - rgbArithmetic
+      - rgbMaze
+      - robotProgramming
+      - theSamsung
+      - scalarDials
+      - sevenChooseFour
+      - ShapesBombs
+      - SimonSendsModule
+      - SimonSingsModule
+      - simonStores
+      - simonsUltimateShowdownModule
+      - sphere
+      - TenButtonColorCode
+      - ThreeCrypticSteps
+      - turtleRobot
+      - ultimateCipher
+      - ultimateCycle
+      - UltraStores
+      - unfairCipher
+      - unfairsRevengeCruel
+      - unfairsRevenge
+      - WonderCipher
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TheDials
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ColourFlash
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - AdjacentLettersModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - logicalButtonsModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - RubiksCubeModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSTellMeWhen
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - thewitness
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - factoring
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - giantsDrink
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MysticSquareModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - streetFighter
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SimonShrieksModule
+    - Count: 2
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - StareModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SymbolCycleModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Probing
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - matrix
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lgndHyperactiveNumbers
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - EncryptedDice
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - thedealmaker
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - coloredMaze
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - complexKeypad
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - modernCipher
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - theNumber
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sevenDeadlySins
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - threadTheNeedle
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - westeros
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TextField
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spwiz3DMaze
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - digitalGrid
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - greenCipher
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - xtrkeywords
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sixteenCoins
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - blockbusters
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlashMemory
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - primeEncryption
+  PacingEventsEnabled: 0

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: random1TP
   m_EditorClassIdentifier: 
-  DisplayName: '''Important'' Module Practice'
+  DisplayName: '''Important'' Module Practice (TP)'
   Description: 'The real question here is, what is considered a "boss" module? (I
     think we know now)
 
