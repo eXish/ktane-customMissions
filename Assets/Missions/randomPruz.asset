@@ -23,8 +23,6 @@ MonoBehaviour:
 
     - A possibility for a A>N<D
 
-    - A possibility for a Needy Banana
-
     - A possibility for a Needy Blue
 
     - A possibility for a Needy Red
@@ -73,4 +71,6 @@ MonoBehaviour:
       - triangleButtons
       - VCRCS
       - ANDmodule
+      - xelBrownBricks
+      - tealArrowsModule
   PacingEventsEnabled: 0

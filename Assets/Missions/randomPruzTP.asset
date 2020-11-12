@@ -27,7 +27,7 @@ MonoBehaviour:
   GeneratorSetting:
     TimeLimit: 680
     NumStrikes: 3
-    TimeBeforeNeedyActivation: 0
+    TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
     OptionalWidgetCount: 7
     ComponentPools:
@@ -62,6 +62,6 @@ MonoBehaviour:
       - ReverseAlphabetize
       - FiveLetterWords
       - VCRCS
-      - ANDmodule
-      - navinums
+      - xelBrownBricks
+      - tealArrowsModule
   PacingEventsEnabled: 0
