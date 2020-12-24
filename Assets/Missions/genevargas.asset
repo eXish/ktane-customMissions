@@ -17,7 +17,7 @@ MonoBehaviour:
 
     This bomb contains...
 
-    - 50x Specific modules
+    - 52x Specific modules
 
     - 1x Needy Refill that Beer!
 
@@ -349,4 +349,16 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - MinesweeperModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - graphModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Mastermind Simple
   PacingEventsEnabled: 0
