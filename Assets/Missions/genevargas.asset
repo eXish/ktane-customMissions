@@ -9,146 +9,46 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: limitchoiceTP
+  m_Name: genevargas
   m_EditorClassIdentifier: 
-  DisplayName: Limited Choice (TP)
-  Description: 'Probably the only way that anyone will enjoy playing with an Organization.
+  DisplayName: Genevargas
+  Description: '"Sooner or later everything will fall into place. Be patient." - Anonymous
 
 
     This bomb contains...
 
-    - 3x Organization
+    - 50x Specific modules
 
-    - 1x Forget Me Not, Forget This, or Simon''s Stages
+    - 1x Needy Refill that Beer!
 
-    - 1x Forget Them All, Kugelblitz, or Busy Beaver
+    - 1x Forget Everything
 
-    - 6x "Moved To Back" modules (As of 10/21/2020)
-
-    - 36x Specific modules'
+    - 1x Souvenir'
   GeneratorSetting:
-    TimeLimit: 3600
-    NumStrikes: 5
+    TimeLimit: 4200
+    NumStrikes: 4
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
-    OptionalWidgetCount: 6
+    OptionalWidgetCount: 7
     ComponentPools:
-    - Count: 3
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - organizationModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - MemoryV2
-      - forgetThis
-      - simonsStages
+      - NeedyBeer
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - forgetThemAll
-      - kugelblitz
-      - busyBeaver
-    - Count: 6
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - 7
-      - asciiMaze
-      - bamboozledAgain
-      - bamboozlingButton
-      - bamboozlingButtonGrid
-      - WonderCipher
-      - blackCipher
-      - borderedKeys
-      - burgerAlarm
-      - buttonGrid
-      - kataCheatCheckout
-      - ConnectedMonitorsModule
-      - matchemcruel
-      - cruelStars
-      - the_cRule
-      - crypticCycle
-      - cube
-      - CursedDoubleOhModule
-      - devilishEggs
-      - disorderedKeys
-      - dragonEnergy
-      - ksmDreamcipher
-      - dungeon
-      - dungeon2
-      - echolocation
-      - EncryptedMorse
-      - EnglishEntries
-      - factoryMaze
-      - faultyrgbMaze
-      - ForgetMeNow
-      - GameOfLifeCruel
-      - graphicMemory
-      - greatVoid
-      - hexOS
-      - hillCycle
-      - identifyingSoulless
-      - indigoCipher
-      - jenga
-      - jumbleCycle
-      - KudosudokuModule
-      - LEGOModule
-      - lgndLombaxCubes
-      - lousyChess
-      - KritMicroModules
-      - SquaresOfMisery
-      - misorderedKeys
-      - mysticmaze
-      - necronomicon
-      - neutrinos
-      - numberNimbleness
-      - OddOneOutModule
-      - oldFogey
-      - oneLinksToAllModule
-      - orangeCipher
-      - PuzzwordModule
-      - quintuples
-      - RailwayCargoLoading
-      - ksmRainbowArrows
-      - recordedKeys
-      - redCipher
-      - reorderedKeys
-      - qkRepoSelector
-      - rgbArithmetic
-      - rgbMaze
-      - robotProgramming
-      - theSamsung
-      - scalarDials
-      - sevenChooseFour
-      - ShapesBombs
-      - SimonSendsModule
-      - SimonSingsModule
-      - simonStores
-      - simonsUltimateShowdownModule
-      - sphere
-      - TenButtonColorCode
-      - ThreeCrypticSteps
-      - turtleRobot
-      - ultimateCipher
-      - ultimateCycle
-      - UltraStores
-      - unfairCipher
-      - unfairsRevengeCruel
-      - unfairsRevenge
+      - HexiEvilFMN
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - TheDials
+      - SouvenirModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -160,197 +60,293 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - AdjacentLettersModule
+      - switchModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - logicalButtonsModule
+      - PasswordV2
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - RubiksCubeModule
+      - SkewedSlotsModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - GSTellMeWhen
+      - shapeshift
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - thewitness
+      - screw
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - factoring
+      - sonic
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - giantsDrink
+      - lasers
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - MysticSquareModule
+      - quintuples
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - streetFighter
+      - skinnyWires
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - SimonShrieksModule
-    - Count: 2
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - StareModule
+      - qSchlagDenBomb
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - SymbolCycleModule
+      - geneticSequence
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - Probing
+      - Tangrams
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - matrix
+      - tapCode
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - evenOrOdd
+      - LightCycleModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - EncryptedDice
+      - Mastermind Cruel
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - thedealmaker
+      - GameOfLifeSimple
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - coloredMaze
+      - Playfair
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - complexKeypad
+      - UncoloredSquaresModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - modernCipher
+      - TheGamepadModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - theNumber
+      - BlindAlleyModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - sevenDeadlySins
+      - ColoredSquaresModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - threadTheNeedle
+      - SuperlogicModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - westeros
+      - boggle
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - TextField
+      - qSwedishMaze
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - spwiz3DMaze
+      - challengeAndContact
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - digitalGrid
+      - lgndHiddenColors
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - greenCipher
+      - megaMan2
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - xtrpasscodes
+      - CrackboxModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - SBgolfModule
+      - britishSlang
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - blockbusters
+      - GridMatching
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - FlashMemory
+      - ChessModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - primeEncryption
+      - MafiaModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lightspeed
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - VaricoloredSquaresModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlavorText
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BigSwitch
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - europeanTravel
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - visual_impairment
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ColoredSwitchesModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BooleanKeypad
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - vexillology
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - KritBlackjack
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - cube
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - buttonSequencesModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - catchphrase
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - passportControl
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - matchematics
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - curriculum
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MinesweeperModule
   PacingEventsEnabled: 0

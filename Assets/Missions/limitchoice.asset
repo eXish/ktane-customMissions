@@ -27,7 +27,7 @@ MonoBehaviour:
 
     - 36x Specific modules'
   GeneratorSetting:
-    TimeLimit: 3600
+    TimeLimit: 3900
     NumStrikes: 5
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0

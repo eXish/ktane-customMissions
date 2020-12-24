@@ -37,6 +37,7 @@ MonoBehaviour:
     - woodsievous
     - carraphim
     - limitchoice
+    - genevargas
   - Title: Randomized
     MissionIDs:
     - random1
@@ -51,4 +52,3 @@ MonoBehaviour:
     - orangeTP
     - random1TP
     - randomPruzTP
-    - limitchoiceTP
