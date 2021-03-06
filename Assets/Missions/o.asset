@@ -25,11 +25,11 @@ MonoBehaviour:
 
     - 1x Needy Odd Mod Out'
   GeneratorSetting:
-    TimeLimit: 1800
+    TimeLimit: 2400
     NumStrikes: 4
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 6
     ComponentPools:
     - Count: 1
       AllowedSources: 2
@@ -109,4 +109,22 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - osu
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - omegaDestroyer
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - oneLine
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - outrageous
   PacingEventsEnabled: 0

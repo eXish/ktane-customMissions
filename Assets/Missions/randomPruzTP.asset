@@ -23,13 +23,15 @@ MonoBehaviour:
 
     - A possibility for a A>N<D
 
-    - A possibility for a Needy Red Light Green Light'
+    - A possibility for a Needy Red Light Green Light
+
+    - A possibility for a Needy Triangle Buttons'
   GeneratorSetting:
     TimeLimit: 680
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 5
     ComponentPools:
     - Count: 5
       AllowedSources: 2
@@ -38,11 +40,13 @@ MonoBehaviour:
       ModTypes:
       - 0
       - OneThousandWords
+      - Alphabetize
+      - navinums
       - blinkstopModule
-      - ANDmodule
       - characterCodes
       - CornersModule
       - CrackboxModule
+      - FiveLetterWords
       - theHiddenValue
       - jenga
       - keypadCombinations
@@ -51,17 +55,27 @@ MonoBehaviour:
       - mineseeker
       - moon
       - NandMs
-      - navinums
+      - redLightGreenLight
+      - ReverseAlphabetize
       - stainedGlass
       - sun
       - symbolicTasha
       - tashaSqueals
       - topsyTurvy
-      - redLightGreenLight
-      - Alphabetize
-      - ReverseAlphabetize
-      - FiveLetterWords
+      - triangleButtons
       - VCRCS
+      - ANDmodule
       - xelBrownBricks
       - tealArrowsModule
+      - PercentageGrey
+      - xelAnotherKeypadModule
+      - xelBrownBricks
+      - ColoredLetters
+      - xelFurloidJukebox
+      - interpunct
+      - kataStripedKeys
+      - TwoPersuasiveButtons
+      - WhiteArrows
+      - WildSide
+      - kataZenerCards
   PacingEventsEnabled: 0

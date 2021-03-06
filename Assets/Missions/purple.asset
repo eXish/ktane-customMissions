@@ -23,7 +23,7 @@ MonoBehaviour:
 
     - 1x Needy Birthdays'
   GeneratorSetting:
-    TimeLimit: 1920
+    TimeLimit: 2700
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
@@ -155,4 +155,16 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - CrazyTalkWithAK
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - decimation
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - LookAndSay
   PacingEventsEnabled: 0

@@ -25,11 +25,11 @@ MonoBehaviour:
 
     - 1x Needy Edgework'
   GeneratorSetting:
-    TimeLimit: 1200
+    TimeLimit: 1500
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 5
     ComponentPools:
     - Count: 1
       AllowedSources: 2

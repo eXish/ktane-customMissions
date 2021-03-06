@@ -17,7 +17,7 @@ MonoBehaviour:
 
     This bomb contains...
 
-    - 19x Modules with a number in their name
+    - 24x Modules with a number in their name
 
     - 1x 14
 
@@ -25,9 +25,9 @@ MonoBehaviour:
 
     - 1x 501
 
-    - 1x Needy 3x3 Grid'
+    - 1x Needy 3x3 Grid or The 12 Days of Christmas'
   GeneratorSetting:
-    TimeLimit: 2400
+    TimeLimit: 3300
     NumStrikes: 3
     TimeBeforeNeedyActivation: 60
     FrontFaceOnly: 0
@@ -87,6 +87,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - 3x3Grid
+      - GSTwelveDaysOfChristmas
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -171,4 +172,34 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - threeLEDsModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sixteenCoins
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSEightyOne
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - countToSixtynineThousandFourHundredAndTwenty
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TheOneTwoThreeGame
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ChamberNoFive
   PacingEventsEnabled: 0

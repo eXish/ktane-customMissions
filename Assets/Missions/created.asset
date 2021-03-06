@@ -22,9 +22,11 @@ MonoBehaviour:
 
     - 1x Organization
 
-    - 1x Needy Roman Numerals'
+    - 1x Needy Roman Numerals
+
+    - 1x Needy Sea Bear Attacks'
   GeneratorSetting:
-    TimeLimit: 1620
+    TimeLimit: 3000
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
@@ -126,4 +128,40 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - oneLinksToAllModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - seaBearAttacksModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - gettinFunkyModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - doubleScreenModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - valuedKeysModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - backButtonsModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ultraDigitalRootModule
   PacingEventsEnabled: 0

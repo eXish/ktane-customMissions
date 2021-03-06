@@ -21,13 +21,9 @@ MonoBehaviour:
 
     - 1x 14
 
-    - 1x Forget The Colors
-
     - 1x Forget This
 
-    - 1x Needy Annoying Arrows
-
-    - 1x Needy Encrypted Values'
+    - 1x Needy Annoying Arrows or Encrypted Values'
   GeneratorSetting:
     TimeLimit: 8100
     NumStrikes: 7
@@ -46,6 +42,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - lgndAnnoyingArrows
+      - EncryptedValuesModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -94,12 +91,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - EncryptedEquationsModule
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - EncryptedValuesModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -225,12 +216,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - lyricalNonsense
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - 7
     - Count: 1
       AllowedSources: 2
@@ -267,12 +252,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - ForgetTheColors
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - sorting
     - Count: 1
       AllowedSources: 2
@@ -286,12 +265,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - SimpleButton
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - ksmDreamcipher
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -327,11 +300,35 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - lousyChess
+      - hillCycle
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - hillCycle
+      - ghostMovement
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - pocketPlanesModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSTernaryTiles
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - toonEnough
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lousyChess
   PacingEventsEnabled: 0

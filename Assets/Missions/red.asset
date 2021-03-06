@@ -27,13 +27,9 @@ MonoBehaviour:
 
     - 1x Password Destroyer
 
-    - 1x The Heart
-
-    - 1x Needy Block Stacks
-
-    - 1x Toolneedy'
+    - 1x Needy Block Stacks'
   GeneratorSetting:
-    TimeLimit: 7800
+    TimeLimit: 8400
     NumStrikes: 8
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
@@ -195,18 +191,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - unfairsRevenge
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - toolneedy
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - PixelArt
     - Count: 1
       AllowedSources: 2
@@ -225,12 +209,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - identifyingSoulless
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - GSTellMeWhen
     - Count: 1
       AllowedSources: 2
@@ -238,12 +216,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - pwDestroyer
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - TheHeart
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -285,12 +257,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - CruelGarfieldKart
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - brainf
     - Count: 1
       AllowedSources: 2
@@ -316,10 +282,41 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - Emoji Math
+      - emoticonMathModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - CruelBinary
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - kidneyBeans
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - cruelStars
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TheSequencyclopedia
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSTellMeWhy
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - V
   PacingEventsEnabled: 0

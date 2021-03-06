@@ -19,15 +19,13 @@ MonoBehaviour:
 
     - A bunch of modules that have green
 
-    - 1x Cheat Checkout
-
     - 1x Encrypted Hangman
+
+    - 1x Forget Any Color
 
     - 1x Forget Infinity
 
-    - 1x Needy Lights Out
-
-    - 1x Needy Terraria Quiz'
+    - 1x Needy Lights Out or Terraria Quiz'
   GeneratorSetting:
     TimeLimit: 9000
     NumStrikes: 9
@@ -171,12 +169,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - LightsOut
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - logicGates
     - Count: 1
       AllowedSources: 2
@@ -249,6 +241,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - lgndTerrariaQuiz
+      - LightsOut
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -297,12 +290,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - primeTime
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - xelDcipher
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -398,7 +385,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - kataCheatCheckout
+      - ForgetAnyColor
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -471,4 +458,10 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - Binary
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - LargeVanillaPassword
   PacingEventsEnabled: 0

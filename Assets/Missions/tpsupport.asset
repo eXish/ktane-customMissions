@@ -22,8 +22,6 @@ MonoBehaviour:
 
     - 1x Lunchtime
 
-    - 1x Random Access Memory
-
     - 1x Blananas2 Needy (Block Stacks, Common Sense)
 
     - 1x Needy Flower Mash
@@ -34,7 +32,7 @@ MonoBehaviour:
 
 '
   GeneratorSetting:
-    TimeLimit: 4800
+    TimeLimit: 8400
     NumStrikes: 7
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
@@ -491,12 +489,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - SquaresOfMisery
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - RAM
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 

@@ -26,7 +26,7 @@ MonoBehaviour:
     NumStrikes: 3
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 5
     ComponentPools:
     - Count: 5
       AllowedSources: 2

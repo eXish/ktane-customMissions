@@ -40,8 +40,6 @@ MonoBehaviour:
     - genevargas
   - Title: Randomized
     MissionIDs:
-    - random1
-    - random1classic
     - randomKritzy
     - randomPruz
     - randomThirdMan
@@ -49,6 +47,4 @@ MonoBehaviour:
     - randomOrg
   - Title: Twitch Plays Variants
     MissionIDs:
-    - orangeTP
-    - random1TP
     - randomPruzTP

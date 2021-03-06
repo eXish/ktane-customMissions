@@ -19,11 +19,11 @@ MonoBehaviour:
 
     - A bunch of modules that have orange'
   GeneratorSetting:
-    TimeLimit: 1500
+    TimeLimit: 2520
     NumStrikes: 3
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 6
     ComponentPools:
     - Count: 1
       AllowedSources: 2
@@ -126,4 +126,22 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - strikeSolve
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - beans
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - bigBean
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NotMorseCode
   PacingEventsEnabled: 0

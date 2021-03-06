@@ -21,7 +21,7 @@ MonoBehaviour:
 
     - 1x Needy Lights Out'
   GeneratorSetting:
-    TimeLimit: 1800
+    TimeLimit: 2400
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0

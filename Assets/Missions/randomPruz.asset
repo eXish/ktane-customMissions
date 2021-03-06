@@ -29,13 +29,15 @@ MonoBehaviour:
 
     - A possibility for a Needy Red Light Green Light
 
-    - A possibility for a Needy Triangle Buttons'
+    - A possibility for a Needy Triangle Buttons
+
+    - A possibility for a Needy Validation'
   GeneratorSetting:
     TimeLimit: 680
     NumStrikes: 3
     TimeBeforeNeedyActivation: 45
     FrontFaceOnly: 0
-    OptionalWidgetCount: 7
+    OptionalWidgetCount: 5
     ComponentPools:
     - Count: 5
       AllowedSources: 2
@@ -73,4 +75,16 @@ MonoBehaviour:
       - ANDmodule
       - xelBrownBricks
       - tealArrowsModule
+      - PercentageGrey
+      - xelAnotherKeypadModule
+      - xelBrownBricks
+      - ColoredLetters
+      - xelFurloidJukebox
+      - interpunct
+      - kataStripedKeys
+      - TwoPersuasiveButtons
+      - ValidationNeedy
+      - WhiteArrows
+      - WildSide
+      - kataZenerCards
   PacingEventsEnabled: 0
