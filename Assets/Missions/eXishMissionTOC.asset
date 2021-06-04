@@ -38,6 +38,7 @@ MonoBehaviour:
     - carraphim
     - limitchoice
     - genevargas
+    - qninteractive
   - Title: Randomized
     MissionIDs:
     - randomKritzy
