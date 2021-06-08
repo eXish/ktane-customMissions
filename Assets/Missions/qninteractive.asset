@@ -27,7 +27,7 @@ MonoBehaviour:
 
     - 1x Iconic'
   GeneratorSetting:
-    TimeLimit: 6600
+    TimeLimit: 7200
     NumStrikes: 5
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0

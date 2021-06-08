@@ -277,7 +277,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - SBgolfModule
+      - golf
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -379,7 +379,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - FunnyNumbers
+      - TheOneTwoThreeGame
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
