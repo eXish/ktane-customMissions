@@ -294,13 +294,13 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - kidneyBeans
+      - theCruelDuck
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - cruelStars
+      - cruelColourFlash
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
