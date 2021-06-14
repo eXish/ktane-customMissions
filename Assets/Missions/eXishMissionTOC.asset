@@ -39,6 +39,7 @@ MonoBehaviour:
     - limitchoice
     - genevargas
     - qninteractive
+    - nitro
   - Title: Randomized
     MissionIDs:
     - randomKritzy
