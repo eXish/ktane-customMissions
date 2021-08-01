@@ -14,8 +14,7 @@ MonoBehaviour:
   DisplayName: Haveniara
   Description: "\"Things are so hard to figure out when you live from day to day in
     this feverish and silly world.\" - Jack Kerouac\n\nThis bomb contains...\n- 51x
-    Specific modules\n- 1x Needy Red Light Green Light\n- 1x Forget Me Later\n- 2x
-    \xDCbermodule"
+    Specific modules\n- 1x Needy Rune Match II\n- 1x Forget Me Later\n- 2x \xDCbermodule"
   GeneratorSetting:
     TimeLimit: 5100
     NumStrikes: 4
@@ -45,7 +44,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - redLightGreenLight
+      - runeMatchII
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
