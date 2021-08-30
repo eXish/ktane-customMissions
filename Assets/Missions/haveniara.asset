@@ -16,7 +16,7 @@ MonoBehaviour:
     this feverish and silly world.\" - Jack Kerouac\n\nThis bomb contains...\n- 51x
     Specific modules\n- 1x Needy Rune Match II\n- 1x Forget Me Later\n- 2x \xDCbermodule"
   GeneratorSetting:
-    TimeLimit: 5100
+    TimeLimit: 6000
     NumStrikes: 4
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
