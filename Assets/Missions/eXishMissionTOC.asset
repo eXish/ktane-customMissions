@@ -40,9 +40,11 @@ MonoBehaviour:
     - genevargas
     - qninteractive
     - haveniara
+    - rubyfavs
   - Title: Randomized
     MissionIDs:
     - randomKritzy
+    - randomKusane
     - randomPruz
     - randomThirdMan
     - randomIAMHARDModded
