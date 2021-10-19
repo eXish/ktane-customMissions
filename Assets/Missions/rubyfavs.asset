@@ -30,7 +30,7 @@ MonoBehaviour:
     NumStrikes: 5
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
-    OptionalWidgetCount: 12
+    OptionalWidgetCount: 8
     ComponentPools:
     - Count: 1
       AllowedSources: 2
@@ -271,7 +271,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - KritNixieCode
+      - burgerAlarm
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
