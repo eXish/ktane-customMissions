@@ -23,7 +23,7 @@ MonoBehaviour:
 
     - 1x Forget This
 
-    - 1x Needy Annoying Arrows or Encrypted Values'
+    - 1x Needy Annoying Arrows'
   GeneratorSetting:
     TimeLimit: 8100
     NumStrikes: 7
@@ -42,7 +42,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - lgndAnnoyingArrows
-      - EncryptedValuesModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
