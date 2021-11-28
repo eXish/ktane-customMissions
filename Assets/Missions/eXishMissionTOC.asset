@@ -41,6 +41,7 @@ MonoBehaviour:
     - qninteractive
     - haveniara
     - rubyfavs
+    - booster
   - Title: Randomized
     MissionIDs:
     - randomKritzy
