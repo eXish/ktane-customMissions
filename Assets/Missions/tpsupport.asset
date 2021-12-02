@@ -18,7 +18,7 @@ MonoBehaviour:
     This bomb contains...
 
     - 1x of each module eXish has made Twitch Plays support for that he doesn''t currently
-    maintain
+    maintain (Up to 30 August, 2020)
 
     - 1x Lunchtime
 
@@ -26,7 +26,8 @@ MonoBehaviour:
 
     - 1x Needy Flower Mash
 
-    - 1x TasThing Needy (Hyperneedy, Marco Polo, Red Light Green Light, Rotating Squares)
+    - 1x TasThing Needy (Hyperneedy, Boozleglyph Identification, Patience, Rotating
+    Squares)
 
     - 1x The Very Annoying Button
 
@@ -549,7 +550,13 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - hyperneedy
-      - marcoPolo
-      - redLightGreenLight
+      - boozleglyphIdentification
+      - patience
       - rotatingSquares
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - marcoPolo
   PacingEventsEnabled: 0
