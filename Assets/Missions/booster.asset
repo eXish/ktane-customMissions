@@ -301,5 +301,11 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
+      - doofenshmirtzEvilIncModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
       - whiteout
   PacingEventsEnabled: 0
