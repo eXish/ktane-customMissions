@@ -42,6 +42,7 @@ MonoBehaviour:
     - haveniara
     - rubyfavs
     - booster
+    - generations
   - Title: Randomized
     MissionIDs:
     - randomKritzy

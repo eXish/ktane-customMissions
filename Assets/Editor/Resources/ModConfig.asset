@@ -21,9 +21,9 @@ MonoBehaviour:
     to college in less than 5 days from the release of this...)
 
 
-    eXish''s Custom Missions v1.3.2
+    eXish''s Custom Missions v1.3.3
 
     Some Missions Not TP Supported but TP Variants Were Made for these occasions'
-  version: 1.3.2
+  version: 1.3.3
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 0050efd65a4d3a44e8abb2165598ad2d, type: 3}
