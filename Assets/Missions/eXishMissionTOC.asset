@@ -43,6 +43,7 @@ MonoBehaviour:
     - rubyfavs
     - booster
     - generations
+    - another
   - Title: Randomized
     MissionIDs:
     - randomKritzy
