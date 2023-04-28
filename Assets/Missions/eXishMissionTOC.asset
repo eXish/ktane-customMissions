@@ -44,6 +44,8 @@ MonoBehaviour:
     - booster
     - generations
     - another
+    - gamblingdrunk
+    - deepend
   - Title: Randomized
     MissionIDs:
     - randomKritzy
