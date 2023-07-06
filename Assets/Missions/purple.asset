@@ -286,7 +286,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - PseudocryptModule
+      - sugarSkulls
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
