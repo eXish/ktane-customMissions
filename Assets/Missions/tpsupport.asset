@@ -18,22 +18,20 @@ MonoBehaviour:
     This bomb contains...
 
     - 1x of each module eXish has made Twitch Plays support for that he doesn''t currently
-    maintain (Up to 30 August, 2020)
+    maintain (as of 30 August 2020, excluding TVAB and Needy Flower Mash)
 
     - 1x Lunchtime
 
     - 1x Blananas2 Needy (Block Stacks, Common Sense)
 
-    - 1x Needy Flower Mash
-
     - 1x TasThing Needy (Hyperneedy, Boozleglyph Identification, Patience, Rotating
     Squares)
 
-    - 1x The Very Annoying Button
+    - 1x Random Access Memory
 
 '
   GeneratorSetting:
-    TimeLimit: 8400
+    TimeLimit: 9000
     NumStrikes: 7
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
@@ -309,12 +307,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - R4YNeedyFlowerMash
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - rgbMaze
     - Count: 1
       AllowedSources: 2
@@ -333,7 +325,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - veryAnnoyingButton
+      - RAM
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 

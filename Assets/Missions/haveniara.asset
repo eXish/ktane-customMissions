@@ -293,7 +293,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - videoPoker
+      - hexiomModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
