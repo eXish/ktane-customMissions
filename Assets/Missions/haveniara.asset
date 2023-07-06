@@ -293,7 +293,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - hexiomModule
+      - partialDerivatives
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
