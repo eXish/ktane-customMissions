@@ -46,6 +46,7 @@ MonoBehaviour:
     - another
     - gamblingdrunk
     - deepend
+    - sensechallenge
   - Title: Randomized
     MissionIDs:
     - randomKritzy
