@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: sensechallenge
   m_EditorClassIdentifier: 
-  DisplayName: A Sensibile Challenge
+  DisplayName: A Sensible Challenge
   Description: Do you guys feel that? It's the presence of doom in this very room!
   GeneratorSetting:
     TimeLimit: 2400
