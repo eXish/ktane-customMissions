@@ -25,7 +25,7 @@ MonoBehaviour:
 
     - 1x Needy Edgework'
   GeneratorSetting:
-    TimeLimit: 7200
+    TimeLimit: 6600
     NumStrikes: 6
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0

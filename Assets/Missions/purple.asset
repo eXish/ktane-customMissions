@@ -23,8 +23,8 @@ MonoBehaviour:
 
     - 1x Needy Birthdays'
   GeneratorSetting:
-    TimeLimit: 8400
-    NumStrikes: 7
+    TimeLimit: 7200
+    NumStrikes: 6
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
     OptionalWidgetCount: 7
@@ -154,7 +154,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - decimation
+      - MaskIdentification
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -262,7 +262,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - hyperrullo
+      - startingLine
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
