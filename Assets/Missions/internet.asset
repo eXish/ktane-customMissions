@@ -14,7 +14,7 @@ MonoBehaviour:
   DisplayName: Internet Madness
   Description: '*Dial-up Internet noises*'
   GeneratorSetting:
-    TimeLimit: 3900
+    TimeLimit: 3600
     NumStrikes: 4
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
