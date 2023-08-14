@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Name: horror
   m_EditorClassIdentifier: 
   DisplayName: Horror Movie
-  Description: Just don't make the decisions those people do on film.
+  Description: 'Just don''t make the decisions those people do on film.
+
+
+    This bomb contains...
+
+    - 45x Specific modules
+
+    - 1x Reporting Anomalies
+
+    - 1x Three Sentence Horror'
   GeneratorSetting:
     TimeLimit: 3000
     NumStrikes: 3

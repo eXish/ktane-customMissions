@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Name: internet
   m_EditorClassIdentifier: 
   DisplayName: Internet Madness
-  Description: '*Dial-up Internet noises*'
+  Description: '*Dial-up Internet noises*
+
+
+    This bomb contains...
+
+    - 45x Specific modules
+
+    - 1x Cube Synchronization
+
+    - 1x Custom Keys'
   GeneratorSetting:
     TimeLimit: 3600
     NumStrikes: 4
