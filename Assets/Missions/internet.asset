@@ -23,7 +23,7 @@ MonoBehaviour:
 
     - 1x Custom Keys'
   GeneratorSetting:
-    TimeLimit: 12000
+    TimeLimit: 12600
     NumStrikes: 5
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
