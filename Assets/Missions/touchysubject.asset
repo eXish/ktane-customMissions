@@ -14,8 +14,8 @@ MonoBehaviour:
   DisplayName: Touchy Subject
   Description: Seems I struck a nerve there.
   GeneratorSetting:
-    TimeLimit: 8100
-    NumStrikes: 15
+    TimeLimit: 7200
+    NumStrikes: 9
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
     OptionalWidgetCount: 5
@@ -80,12 +80,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - sensorMaze
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - simonSenses
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -260,4 +254,10 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - superpositionRB
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BlindAlleyModule
   PacingEventsEnabled: 0

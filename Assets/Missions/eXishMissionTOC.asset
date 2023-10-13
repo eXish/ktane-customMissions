@@ -50,6 +50,7 @@ MonoBehaviour:
     - internet
     - horror
     - touchysubject
+    - drogryan
   - Title: Randomized
     MissionIDs:
     - randomKritzy
