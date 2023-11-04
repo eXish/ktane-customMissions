@@ -105,10 +105,10 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - simonSwivels
+      - keypass
       - compMorse
       - memoryWires
-      - keypadSeq
+      - synapseSays
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -213,7 +213,8 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - QuickArithmetic
+      - BombItModule
+      - BombItJAModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
