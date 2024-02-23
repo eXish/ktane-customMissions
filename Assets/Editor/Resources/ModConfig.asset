@@ -14,16 +14,13 @@ MonoBehaviour:
   id: eXishMissions
   title: eXish's Custom Missions
   author: eXish
-  description: 'A set of missions ~~fueling my ego in my everylasting reign of terror
+  description: "A set of missions ~~fueling my ego in my everylasting reign of terror
     over the KTANE community >:)~~ dedicated to all of my fans in this game through
     the modded community. Thank you all so much for supporting me for all this time
-    and I hope to continue doing this for a lot longer! (Even though I''m heading
-    to college in less than 5 days from the release of this...)
-
-
-    eXish''s Custom Missions v1.5.1
-
-    Some Missions Not TP Supported but TP Variants Were Made for these occasions'
-  version: 1.5.1
+    and I hope to continue doing this for a lot longer! (Even though I'm heading to
+    college in less than 5 days from the release of this...)\r\n\r\neXish's Custom
+    Missions v1.5.2\nSome Missions Not TP Supported but TP Variants Were Made for
+    these occasions"
+  version: 1.5.2
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 0050efd65a4d3a44e8abb2165598ad2d, type: 3}

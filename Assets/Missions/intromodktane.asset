@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: intromodktane
+  m_EditorClassIdentifier: 
+  DisplayName: Intro to Modded KTANE
+  Description: An introduction to modded KTANE, in the form of a factory mode challenge
+    bomb.
+  GeneratorSetting:
+    TimeLimit: 4000
+    NumStrikes: 5
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 3
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Factory Mode
+    - Count: 10
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs
+    - Count: 2
+      AllowedSources: 2
+      ComponentTypes: 02000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 2
+      AllowedSources: 2
+      ComponentTypes: 03000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 07000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 0b000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 09000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 04000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ColourFlash
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - AnagramsModule
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Listening
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:1:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":0,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[2],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[4],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[8],"SpecialComponentType":0,"ModTypes":[]},{"Count":2,"AllowedSources":1,"ComponentTypes":[11],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[12],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["AnagramsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ColourFlash"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TwoBits"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["switchModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["LetterKeys"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:2:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[13],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[3],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[6],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[8],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[9],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Listening"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["switchModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["KeypadV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["graphModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ColourFlash"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwizAstrology"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:3:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":0,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[4],"SpecialComponentType":0,"ModTypes":[]},{"Count":2,"AllowedSources":1,"ComponentTypes":[5],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[10],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[12],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TurnTheKey"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["shapeshift"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["graphModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["LetterKeys"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Listening"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:4:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[15],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[5],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[6],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[11],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["AnagramsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["WordScrambleModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MazeV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TwoBits"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["BitOps"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SeaShells"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:5:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":0,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[10],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[2],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[7],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["switchModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["KeypadV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["LetterKeys"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwizAstrology"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SeaShells"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["NumberPad"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwiz3DMaze"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["WordSearchModule"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:6:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":0,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[8],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[3],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TurnTheKeyAdvanced"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MazeV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["switchModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Listening"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CryptModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TheBulbModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["BitOps"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CaesarCipherModule"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:7:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["NeedyVentV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[6],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ColourFlash"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["graphModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MorseV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TurnTheKey"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["shapeshift"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["SeaShells"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TextField"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Mastermind
+        Simple"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["AnagramsModule"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:8:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[13],"SpecialComponentType":0,"ModTypes":[]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TwoBits"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["WordScrambleModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CryptModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwiz3DMaze"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ButtonV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["iceCreamModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ExtendedPassword"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["WordSearchModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CoordinatesModule"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:9:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["LightsOut"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["AnagramsModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Listening"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["KeypadV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CaesarCipherModule"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["NumberPad"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["ButtonV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MemoryV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["LEDEnc"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["timezone"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["buttonSequencesModule"]}]}
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Multiple Bombs:10:{"TimeLimit":4000.0,"NumStrikes":5,"TimeBeforeNeedyActivation":90,"FrontFaceOnly":false,"OptionalWidgetCount":5,"ComponentPools":[{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["NeedyVentV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MemoryV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TurnTheKeyAdvanced"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["MazeV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["KeypadV2"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwizAstrology"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["CrazyTalk"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["spwiz3DMaze"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["TextField"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["Mastermind
+        Simple"]},{"Count":1,"AllowedSources":1,"ComponentTypes":[],"SpecialComponentType":0,"ModTypes":["timezone"]}]}
+  PacingEventsEnabled: 0

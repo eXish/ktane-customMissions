@@ -33,7 +33,7 @@ MonoBehaviour:
   GeneratorSetting:
     TimeLimit: 10800
     NumStrikes: 6
-    TimeBeforeNeedyActivation: 1200
+    TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
     OptionalWidgetCount: 5
     ComponentPools:
@@ -67,7 +67,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - cheepCheckout
-    - Count: 1
+    - Count: 2
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
@@ -121,12 +121,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - VoltorbFlip
-    - Count: 1
-      AllowedSources: 2
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - BackdoorHacking
     - Count: 2
       AllowedSources: 2
       ComponentTypes: 

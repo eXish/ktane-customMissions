@@ -1,0 +1,10 @@
+{
+  "name": "eXishMissions-Editor",
+  "references": [
+    "eXishMissions"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": []
+}

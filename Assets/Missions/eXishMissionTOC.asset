@@ -52,6 +52,8 @@ MonoBehaviour:
     - touchysubject
     - drogryan
     - ilikemoney
+    - lastdigit
+    - intromodktane
   - Title: Randomized
     MissionIDs:
     - randomKritzy
