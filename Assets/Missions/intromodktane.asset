@@ -21,7 +21,7 @@ MonoBehaviour:
     FrontFaceOnly: 0
     OptionalWidgetCount: 5
     ComponentPools:
-    - Count: 3
+    - Count: 4
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
