@@ -21,15 +21,13 @@ MonoBehaviour:
 
     - 1x Tax Returns
 
-    - 1x Cheat Checkout
-
-    - 1x Backdoor Hacking
+    - 2x Cheat Checkout
 
     - 1x Lunchtime
 
     - 1x The Board Walk
 
-    - 1x Needy Flip The Coin (will activate after 20 minutes have passed)'
+    - 1x Needy Flip The Coin'
   GeneratorSetting:
     TimeLimit: 10800
     NumStrikes: 6
