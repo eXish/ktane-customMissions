@@ -15,7 +15,7 @@ MonoBehaviour:
   Description: 'I think there was a bomb here.
 
 
-    [Cursed] blind,lost'
+    [Cursed] blind,maze'
   GeneratorSetting:
     TimeLimit: 3300
     NumStrikes: 4
