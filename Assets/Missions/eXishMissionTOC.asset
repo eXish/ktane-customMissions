@@ -55,6 +55,7 @@ MonoBehaviour:
     - lastdigit
     - intromodktane
     - dementia
+    - cmdprompt
   - Title: Randomized
     MissionIDs:
     - randomKritzy
