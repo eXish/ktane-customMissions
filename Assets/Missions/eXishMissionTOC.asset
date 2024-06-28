@@ -58,6 +58,7 @@ MonoBehaviour:
     - cmdprompt
     - frontprime
     - supersonic
+    - newsupersonic
   - Title: Randomized
     MissionIDs:
     - randomKritzy
