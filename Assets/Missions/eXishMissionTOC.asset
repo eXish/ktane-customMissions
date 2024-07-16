@@ -59,6 +59,7 @@ MonoBehaviour:
     - frontprime
     - supersonic
     - newsupersonic
+    - notetaker
   - Title: Randomized
     MissionIDs:
     - randomKritzy

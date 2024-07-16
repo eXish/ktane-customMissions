@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: notetaker
+  m_EditorClassIdentifier: 
+  DisplayName: Notetaker
+  Description: Notepad+++
+  GeneratorSetting:
+    TimeLimit: 6300
+    NumStrikes: 7
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spectatorSport
+    - Count: 2
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SouvenirModule
+    - Count: 60
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - nonverbalSimon
+      - punctuationMarks
+      - OneThousandWords
+      - threeLEDsModule
+      - Binary
+      - boggle
+      - TheBulbModule
+      - calendar
+      - characterCodes
+      - chineseCounting
+      - theCodeModule
+      - GSCrypticKeypad
+      - directionalButton
+      - doubleColor
+      - EncryptedDice
+      - FlavorText
+      - flyswatting
+      - FollowMe
+      - lgndGadgetronVendor
+      - TheGamepadModule
+      - Averageh
+      - horribleMemory
+      - identityParade
+      - impostor
+      - interpunct
+      - TheKanyeEncounter
+      - keypadCombinations
+      - ladderLottery
+      - LEDEnc
+      - lgndLEDMath
+      - leds
+      - LightBulbs
+      - Listening
+      - MadMemory
+      - mashematics
+      - matrix
+      - MazeScrambler
+      - memoryWires
+      - Microcontroller
+      - mirror
+      - moduleMovements
+      - MorseWar
+      - murder
+      - NotMaze
+      - NotButton
+      - numberedButtonsModule
+      - Numbers
+      - orangeArrowsModule
+      - OrientationCube
+      - passportControl
+      - pictionaryModule
+      - pieModule
+      - poetry
+      - purpleArrowsModule
+      - Questionmark
+      - redArrowsModule
+      - theRule
+      - SeaShells
+      - shapeshift
+      - simonSaidModule
+      - simonSimons
+      - SimonV2
+      - spellingBee
+      - spongebobBirthdayIdentification
+      - subway
+      - BigSwitch
+      - synonyms
+      - TextField
+      - timezone
+      - USACycle
+      - VCRCS
+      - visual_impairment
+      - wasdModule
+      - kataWireOrdering
+      - workingTitle
+      - lgndZoni
+    - Count: 4
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - AzureButtonModule
+      - cornflowerCipher
+      - faultyrgbMaze
+      - indigoCipher
+      - lgndLombaxCubes
+      - NavyButtonModule
+      - quintuples
+      - RailwayCargoLoading
+      - unfairCipher
+      - wolfGoatCabbageModule
+  PacingEventsEnabled: 0
