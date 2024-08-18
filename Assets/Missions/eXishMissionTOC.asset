@@ -60,6 +60,7 @@ MonoBehaviour:
     - supersonic
     - newsupersonic
     - notetaker
+    - ilovecountdown
   - Title: Randomized
     MissionIDs:
     - randomKritzy
