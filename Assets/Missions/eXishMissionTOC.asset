@@ -61,6 +61,8 @@ MonoBehaviour:
     - newsupersonic
     - notetaker
     - ilovecountdown
+    - etoexplode
+    - ratsnest
   - Title: Randomized
     MissionIDs:
     - randomKritzy
