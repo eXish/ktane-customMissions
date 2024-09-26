@@ -21,12 +21,11 @@ MonoBehaviour:
     FrontFaceOnly: 0
     OptionalWidgetCount: 5
     ComponentPools:
-    - Count: 1
+    - Count: 10
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - xelWhackTheCops
       - countdown
     - Count: 1
       AllowedSources: 0
@@ -34,278 +33,178 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - doofenshmirtzEvilIncModule
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - nonverbalSimon
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - BooleanKeypad
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - TheDigitModule
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - NextInLine
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - BaybayinWords
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - purpleArrowsModule
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - FaultySink
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - UncoloredSquaresModule
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - shapeshift
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - rainModule
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - Words
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - dingBats
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 08000000
       SpecialComponentType: 0
-      ModTypes:
-      - countdown
+      ModTypes: []
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - FontSelect
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - caesarsMaths
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - royalPianoKeys
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - boggle
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - symbolicPasswordModule
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - shellGame
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - soundDesign
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - Wordle
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - uncoloredKeysModule
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - bigBikeRepair
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - GridMatching
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - BrokenBinary
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - GSTellMeWhen
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - GSTwentyFour
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - zoomModule
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - clappingMusic
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - schulteTable
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - ReadingBetweentheLines
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - timeOut
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - instructions
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - visual_impairment
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - EnglishTest
-      - countdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - xelTruchetTiles
-      - countdown
-    - Count: 1
+    - Count: 3
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - scrutinySquares
-      - countdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - monsplodeCards
-      - cruelCountdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - bakery
       - cruelCountdown
     - Count: 1
       AllowedSources: 0
@@ -313,34 +212,23 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - spwiz3DMaze
-      - cruelCountdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - SettingSail
-      - cruelCountdown
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - SetTheory
-      - cruelCountdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
       - melodicMessage
-      - cruelCountdown
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - GameOfColors
       - ChaoticCountdownModule
     - Count: 1
       AllowedSources: 0
@@ -348,5 +236,4 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - KritMicroModules
-      - ChaoticCountdownModule
   PacingEventsEnabled: 0

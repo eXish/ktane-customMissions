@@ -17,13 +17,15 @@ MonoBehaviour:
 
     This bomb contains...
 
-    - A bunch of modules that have orange'
+    - A bunch of modules that have orange
+
+    - 1x Needy Refill that Beer!'
   GeneratorSetting:
-    TimeLimit: 4200
-    NumStrikes: 4
-    TimeBeforeNeedyActivation: 0
+    TimeLimit: 6000
+    NumStrikes: 5
+    TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
-    OptionalWidgetCount: 6
+    OptionalWidgetCount: 7
     ComponentPools:
     - Count: 1
       AllowedSources: 2
@@ -149,7 +151,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - outrageous
+      - congkakMQEktane1
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
@@ -252,4 +254,58 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - KritHomework
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - mazeCode
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSWinningLine
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - patternRecognition
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlaminFinger
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NeedyBeer
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - runonSentence
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ventilation
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - rustGB
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - mars
   PacingEventsEnabled: 0
