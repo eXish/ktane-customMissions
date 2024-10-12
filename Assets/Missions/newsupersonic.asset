@@ -14,7 +14,7 @@ MonoBehaviour:
   DisplayName: New Supersonic
   Description: The old one just wasn't good enough.
   GeneratorSetting:
-    TimeLimit: 6000
+    TimeLimit: 5400
     NumStrikes: 6
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - GL_nokiaModule
-    - Count: 5
+    - Count: 3
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
@@ -252,4 +252,18 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - WhiteHoleModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CuttingOrder
+      - voltaicMorseModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - alcoholicRampageModule
+      - antichamber
   PacingEventsEnabled: 0
