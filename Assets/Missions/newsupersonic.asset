@@ -258,12 +258,10 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - CuttingOrder
-      - voltaicMorseModule
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - alcoholicRampageModule
       - antichamber
   PacingEventsEnabled: 0
