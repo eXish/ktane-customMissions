@@ -64,6 +64,8 @@ MonoBehaviour:
     - etoexplode
     - ratsnest
     - bakingsoda
+    - elevatorbomb
+    - hotelhell
   - Title: Randomized
     MissionIDs:
     - randomKritzy

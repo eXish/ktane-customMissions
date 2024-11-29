@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: elevatorbomb
+  m_EditorClassIdentifier: 
+  DisplayName: Elevator Bomb
+  Description: This bomb must be done in the Elevator Room. Good luck!
+  GeneratorSetting:
+    TimeLimit: 4200
+    NumStrikes: 5
+    TimeBeforeNeedyActivation: 90
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 3
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 1
+      ModTypes: []
+    - Count: 3
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NotWiresword
+      - NotSimaze
+      - NotButton
+      - NotPassword
+      - NotMemory
+      - NotMaze
+      - NotKeypad
+      - NotComplicatedWires
+    - Count: 3
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - tripleTermModule
+      - translatedKeypadModule
+      - theGreenWireModule
+      - SmallTalk
+      - Quadrants
+      - serialWires
+      - patternRecognition
+      - cityPlanning
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - calendar
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - USA
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CreationModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - symbolicPasswordModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - fencing
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - complexKeypad
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BrokenBinary
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - PixelArt
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - remotemath
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - PerplexingWiresModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Mastermind Simple
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - shapeshift
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - RedHerring
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MemoryBuster
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - moduleListening
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DoubleOhModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - visual_impairment
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SuperlogicModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSEightyOne
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - yetAnotherKeypad
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lyingIndicators
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlashMemory
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - symbolicColouring
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Color Generator
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - factoring
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sixteenCoins
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CaptchaModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - SimonsSatire
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - equations
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ksmHighScore
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BattleshipModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spwizAdventureGame
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - emoticonMathModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - flyswatting
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - cruelWordSearchModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - WordSearchModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - OnlyConnectModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lasers
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DividedSquaresModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lgndLEDMath
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - vexillology
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - gettinFunkyModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - OddOneOutModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - doubleScreenModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - zoomModule
+  PacingEventsEnabled: 0
