@@ -19,8 +19,8 @@ MonoBehaviour:
     the modded community. Thank you all so much for supporting me for all this time
     and I hope to continue doing this for a lot longer! (Even though I'm heading to
     college in less than 5 days from the release of this...)\r\n\r\neXish's Custom
-    Missions v1.7.0\nSome Missions Not TP Supported but TP Variants Were Made for
+    Missions v1.7.1\nSome Missions Not TP Supported but TP Variants Were Made for
     these occasions"
-  version: 1.7.0
+  version: 1.7.1
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 0050efd65a4d3a44e8abb2165598ad2d, type: 3}

@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: hotelhell
   m_EditorClassIdentifier: 
   DisplayName: Hotel Hell
-  Description: This is the worst hotel I've ever stayed at.
+  Description: 'This is the worst hotel I''ve ever stayed at.
+
+
+    [A-90] AI=50'
   GeneratorSetting:
     TimeLimit: 3000
     NumStrikes: 4
