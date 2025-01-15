@@ -66,6 +66,7 @@ MonoBehaviour:
     - bakingsoda
     - elevatorbomb
     - hotelhell
+    - oldcomputer
   - Title: Randomized
     MissionIDs:
     - randomKritzy

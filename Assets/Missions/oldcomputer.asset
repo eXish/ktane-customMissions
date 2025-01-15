@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: oldcomputer
+  m_EditorClassIdentifier: 
+  DisplayName: Old Computer
+  Description: Prolly about time you trashed this thing, it's literally on the verge
+    of exploding.
+  GeneratorSetting:
+    TimeLimit: 2400
+    NumStrikes: 4
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 5
+    ComponentPools:
+    - Count: 10
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 1
+      ModTypes: []
+    - Count: 3
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - RAM
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Logic
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - graphModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Microcontroller
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BitOps
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BrokenButtonsModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DoubleOhModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FontSelect
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - logicGates
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - calendar
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - wireSpaghetti
+    - Count: 3
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MistakeModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - characterCodes
+    - Count: 5
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Binary
+      - FaultyBinary
+      - CruelBinary
+      - BrokenBinary
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Microphone
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - UnicodeModule
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - shortcuts
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TheCalculator
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - digitalClock
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - console
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - TheCloseButton
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - theSpeaker
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BooleanNetwork
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - resistors
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Tangrams
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - LogicCircuits
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - powerButton
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Ultralogic
+    - Count: 1
+      AllowedSources: 1
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - logicalOperators
+  PacingEventsEnabled: 0
