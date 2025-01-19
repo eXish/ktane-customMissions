@@ -202,12 +202,6 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - aMassiveAmountOfWiresModule
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
       - wireTesting
     - Count: 1
       AllowedSources: 0

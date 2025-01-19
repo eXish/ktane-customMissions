@@ -44,7 +44,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - PasswordV2
-    - Count: 1
+    - Count: 2
       AllowedSources: 0
       ComponentTypes: 
       SpecialComponentType: 0
@@ -159,12 +159,6 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - ventilation
-    - Count: 1
-      AllowedSources: 0
-      ComponentTypes: 
-      SpecialComponentType: 0
-      ModTypes:
-      - thermostat
     - Count: 1
       AllowedSources: 0
       ComponentTypes: 

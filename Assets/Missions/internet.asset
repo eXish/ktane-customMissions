@@ -19,11 +19,11 @@ MonoBehaviour:
 
     - 45x Specific modules
 
-    - 1x Cube Synchronization
+    - 1x Needy Two-Factor Authentication
 
     - 1x Custom Keys'
   GeneratorSetting:
-    TimeLimit: 12600
+    TimeLimit: 3600
     NumStrikes: 5
     TimeBeforeNeedyActivation: 0
     FrontFaceOnly: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - qkCubeSynchronization
+      - Needy2FA
     - Count: 4
       AllowedSources: 2
       ComponentTypes: 
