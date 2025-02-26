@@ -106,7 +106,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - shellGame
+      - worseCode
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
