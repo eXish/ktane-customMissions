@@ -67,6 +67,7 @@ MonoBehaviour:
     - elevatorbomb
     - hotelhell
     - oldcomputer
+    - badending
   - Title: Randomized
     MissionIDs:
     - randomKritzy
