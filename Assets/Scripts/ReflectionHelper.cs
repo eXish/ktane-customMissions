@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -162,5 +163,13 @@ public static class ReflectionHelper
     public static void CallMethod(this object @object, string member, params object[] arguments)
     {
         @object.GetType().CallMethod(member, @object, arguments);
+    }
+
+    public static IEnumerable<DictionaryEntry> CastDict(this IDictionary dictionary)
+    {
+        foreach (DictionaryEntry entry in dictionary)
+        {
+            yield return entry;
+        }
     }
 }

@@ -353,6 +353,10 @@ public class AssetBundler
         string srcPath = Path.Combine(TEMP_BUILD_FOLDER, BUNDLE_FILENAME);
         string destPath = Path.Combine(outputFolder, BUNDLE_FILENAME);
         File.Copy(srcPath, destPath, true);
+
+        srcPath = Path.Combine(TEMP_BUILD_FOLDER, "spongevid.bundle");
+        destPath = Path.Combine(outputFolder, "spongevid.bundle");
+        File.Copy(srcPath, destPath, true);
     }
 
     /// <summary>
