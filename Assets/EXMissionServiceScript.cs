@@ -48,6 +48,16 @@ public class EXMissionServiceScript : MonoBehaviour {
             if (spongebobCo == null)
                 spongebobCo = StartCoroutine(SpongebobGenerator());
         }
+        else if (currentMission == "mod_eXishMissions_dataminer")
+        {
+            if (dontDoAgain)
+                return;
+            KMBombModule[] modules = FindObjectsOfType<KMBombModule>();
+            int[] angles = { 0, 90, 180, 270 };
+            for (int i = 0; i < modules.Length; i++)
+                modules[i].transform.localEulerAngles += new Vector3(0, angles.PickRandom(), 0);
+            dontDoAgain = true;
+        }
         else
         {
             if (spongebobCo != null)
