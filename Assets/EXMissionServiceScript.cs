@@ -48,14 +48,11 @@ public class EXMissionServiceScript : MonoBehaviour {
             if (spongebobCo == null)
                 spongebobCo = StartCoroutine(SpongebobGenerator());
         }
-        else if (currentMission == "mod_eXishMissions_dataminer")
+        else if (currentMission == "mod_eXishMissions_donkey")
         {
             if (dontDoAgain)
                 return;
-            KMBombModule[] modules = FindObjectsOfType<KMBombModule>();
-            int[] angles = { 0, 90, 180, 270 };
-            for (int i = 0; i < modules.Length; i++)
-                modules[i].transform.localEulerAngles += new Vector3(0, angles.PickRandom(), 0);
+            StartCoroutine(WaitThenRotate());
             dontDoAgain = true;
         }
         else
@@ -121,5 +118,14 @@ public class EXMissionServiceScript : MonoBehaviour {
                 GameMusicControl.GameMusicVolume = DefaultGameMusicVolume;
             }
         }
+    }
+
+    IEnumerator WaitThenRotate()
+    {
+        yield return new WaitForSeconds(.1f);
+        KMBombModule[] modules = FindObjectsOfType<KMBombModule>();
+        int[] angles = { 0, 90, 180, 270 };
+        for (int i = 0; i < modules.Length; i++)
+            modules[i].transform.localEulerAngles += new Vector3(0, angles.PickRandom(), 0);
     }
 }

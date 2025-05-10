@@ -69,6 +69,7 @@ MonoBehaviour:
     - oldcomputer
     - badending
     - spongebob
+    - donkey
   - Title: Randomized
     MissionIDs:
     - randomKritzy
