@@ -132,9 +132,9 @@ public class EXMissionServiceScript : MonoBehaviour {
             int chosenAngle = angles.PickRandom();
             modules[i].transform.localEulerAngles += new Vector3(0, chosenAngle, 0);
             if (i != modules.Length - 1)
-                log += modules[i].ModuleDisplayName + " " + chosenAngle + ", ";
+                log += modules[i].ModuleDisplayName + " " + chosenAngle + (modules[i].transform.localEulerAngles.z == 0 ? " CW, " : " CCW, ");
             else
-                log += modules[i].ModuleDisplayName + " " + chosenAngle;
+                log += modules[i].ModuleDisplayName + " " + chosenAngle + (modules[i].transform.localEulerAngles.z == 0 ? " CW" : " CCW");
         }
         Debug.LogFormat("[eXishMissions] Module rotations: {0}", log);
     }
