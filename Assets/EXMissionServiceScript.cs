@@ -6,7 +6,7 @@ using UnityEngine.Video;
 
 public class EXMissionServiceScript : MonoBehaviour {
 
-	public KMGameInfo game;
+    public KMGameInfo game;
     public VideoPlayer vidPlayer;
     public AudioSource audSource;
     public Camera cam;
@@ -112,6 +112,7 @@ public class EXMissionServiceScript : MonoBehaviour {
                 DefaultGameMusicVolume = GameMusicControl.GameMusicVolume;
                 GameMusicControl.GameMusicVolume = 0;
                 vidPlayer.Play();
+                Debug.LogFormat("[eXishMissions] Playing video {0}", vidPlayer.clip.name);
                 yield return new WaitUntil(() => !vidPlayer.isPlaying);
                 Cursor.visible = true;
                 cam.gameObject.SetActive(false);
@@ -125,7 +126,16 @@ public class EXMissionServiceScript : MonoBehaviour {
         yield return new WaitForSeconds(.1f);
         KMBombModule[] modules = FindObjectsOfType<KMBombModule>();
         int[] angles = { 0, 90, 180, 270 };
+        string log = "";
         for (int i = 0; i < modules.Length; i++)
-            modules[i].transform.localEulerAngles += new Vector3(0, angles.PickRandom(), 0);
+        {
+            int chosenAngle = angles.PickRandom();
+            modules[i].transform.localEulerAngles += new Vector3(0, chosenAngle, 0);
+            if (i != modules.Length - 1)
+                log += modules[i].ModuleDisplayName + " " + chosenAngle + ", ";
+            else
+                log += modules[i].ModuleDisplayName + " " + chosenAngle;
+        }
+        Debug.LogFormat("[eXishMissions] Module rotations: {0}", log);
     }
 }
