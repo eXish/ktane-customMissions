@@ -214,7 +214,7 @@ MonoBehaviour:
       SpecialComponentType: 0
       ModTypes:
       - BombItModule
-      - BombItJAModule
+      - BombItTranslatedModule
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
