@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: rainbowunicorn
+  m_EditorClassIdentifier: 
+  DisplayName: Rainbows & Unicorns
+  Description: What more could you ask for?
+  GeneratorSetting:
+    TimeLimit: 4500
+    NumStrikes: 3
+    TimeBeforeNeedyActivation: 0
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 6
+    ComponentPools:
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Laundry
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - BigCircle
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MorseAMaze
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FlagsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - radiator
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - unrelatedAnagrams
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - blueArrowsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - doubleExpert
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - antichamber
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - cruelDigitalRootModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - vectorsModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - buttonGrid
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - theBlock
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - cheepCheckout
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - lunchtime
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - JustNumbersModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Telepathy
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - monsplodeFight
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - FollowTheLeaderModule
+    - Count: 3
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - StareModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - KritMicroModules
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - RedHerring
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - redHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ButtonV2
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - meteor
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - orangeHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - beans
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - boneAppleTea
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spongebobBirthdayIdentification
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - yellowHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - Questionmark
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - spellingBee
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ModuleRick
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - greenHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - years
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - airStrikes
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - blueWhale
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - blueHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MssngvWls
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - DrDoctorModule
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - MemoryV2
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - GSCrypticKeypad
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - purpleHexabuttons
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - CrypticPassword
+    - Count: 1
+      AllowedSources: 0
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - matchmaker
+  PacingEventsEnabled: 0
